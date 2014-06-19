@@ -37,4 +37,4 @@ $ s
 $ git push origin master
  
 # ken at ken-trading in ~/nomachine-4.2.25_1 on git:master o [12:10:28]
-$
+$sudo passwd ken
