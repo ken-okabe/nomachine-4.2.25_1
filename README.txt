@@ -1,4 +1,13 @@
 
+NXD
+The Network Server (nxd) listens by default on port 4000.
+This port must be open between client and server.
+This is mandatory to allow connections by NX protocol.
+If NX protocol is used, UDP communication for multimedia uses by default a range of ports between 4011 and 4999.  
+These ports must be open between client and server. 
+If they are not available, traffic will fall back to TCP communication.
+
+
 git clone https://github.com/kenokabe/nomachine-4.2.25_1
 
 nomachine-4.2.25_1
